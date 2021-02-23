@@ -1,0 +1,85 @@
+V3 50
+FL C:/Users/suuser/Xilinx/jerena_lab2/CL15.vhf 2020/12/01.15:16:11 P.20131013
+EN work/CLA_MUSER_CL15 1606909890 FL C:/Users/suuser/Xilinx/jerena_lab2/CL15.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/CLA_MUSER_CL15/BEHAVIORAL 1606909891 \
+      FL C:/Users/suuser/Xilinx/jerena_lab2/CL15.vhf EN work/CLA_MUSER_CL15 1606909890 \
+      CP AND2 CP OR2 CP OR3 CP AND3 CP AND4 CP OR4
+EN work/CLA3_MUSER_CL15 1606909892 \
+      FL C:/Users/suuser/Xilinx/jerena_lab2/CL15.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/CLA3_MUSER_CL15/BEHAVIORAL 1606909893 \
+      FL C:/Users/suuser/Xilinx/jerena_lab2/CL15.vhf EN work/CLA3_MUSER_CL15 1606909892 \
+      CP XOR2 CP AND2 CP CLA_MUSER_CL15
+EN work/Clw2c_MUSER_CL15 1606909894 \
+      FL C:/Users/suuser/Xilinx/jerena_lab2/CL15.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/Clw2c_MUSER_CL15/BEHAVIORAL 1606909895 \
+      FL C:/Users/suuser/Xilinx/jerena_lab2/CL15.vhf EN work/Clw2c_MUSER_CL15 1606909894 \
+      CP XOR2 CP AND2 CP CLA_MUSER_CL15
+EN work/CL15 1606909896 \
+      FL C:/Users/suuser/Xilinx/jerena_lab2/CL15.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/CL15/BEHAVIORAL 1606909897 \
+      FL C:/Users/suuser/Xilinx/jerena_lab2/CL15.vhf EN work/CL15 1606909896 \
+      CP XOR2 CP Clw2c_MUSER_CL15 CP CLA3_MUSER_CL15
+FL C:/Users/suuser/Xilinx/jerena_lab2/CLA.vhf 2020/12/01.15:05:15 P.20131013
+EN work/CLA 1606909906 FL C:/Users/suuser/Xilinx/jerena_lab2/CLA.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/CLA/BEHAVIORAL 1606909907 \
+      FL C:/Users/suuser/Xilinx/jerena_lab2/CLA.vhf EN work/CLA 1606909906 CP AND2 \
+      CP OR2 CP OR3 CP AND3 CP AND4 CP OR4
+FL C:/Users/suuser/Xilinx/jerena_lab2/CLA3.vhf 2020/12/01.15:09:31 P.20131013
+EN work/CLA_MUSER_CLA3 1606909898 FL C:/Users/suuser/Xilinx/jerena_lab2/CLA3.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/CLA_MUSER_CLA3/BEHAVIORAL 1606909899 \
+      FL C:/Users/suuser/Xilinx/jerena_lab2/CLA3.vhf EN work/CLA_MUSER_CLA3 1606909898 \
+      CP AND2 CP OR2 CP OR3 CP AND3 CP AND4 CP OR4
+EN work/CLA3 1606909900 \
+      FL C:/Users/suuser/Xilinx/jerena_lab2/CLA3.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/CLA3/BEHAVIORAL 1606909901 \
+      FL C:/Users/suuser/Xilinx/jerena_lab2/CLA3.vhf EN work/CLA3 1606909900 \
+      CP XOR2 CP AND2 CP CLA_MUSER_CLA3
+FL C:/Users/suuser/Xilinx/jerena_lab2/Clw2c.vhf 2020/12/01.15:16:11 P.20131013
+EN work/CLA_MUSER_Clw2c 1606909902 \
+      FL C:/Users/suuser/Xilinx/jerena_lab2/Clw2c.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/CLA_MUSER_Clw2c/BEHAVIORAL 1606909903 \
+      FL C:/Users/suuser/Xilinx/jerena_lab2/Clw2c.vhf EN work/CLA_MUSER_Clw2c 1606909902 \
+      CP AND2 CP OR2 CP OR3 CP AND3 CP AND4 CP OR4
+EN work/Clw2c 1606909904 \
+      FL C:/Users/suuser/Xilinx/jerena_lab2/Clw2c.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/Clw2c/BEHAVIORAL 1606909905 \
+      FL C:/Users/suuser/Xilinx/jerena_lab2/Clw2c.vhf EN work/Clw2c 1606909904 \
+      CP XOR2 CP AND2 CP CLA_MUSER_Clw2c
+FL C:/Users/suuser/Xilinx/jerena_lab2/FA.vhf 2020/11/30.18:13:43 P.20131013
+EN work/FA 1606910340 FL C:/Users/suuser/Xilinx/jerena_lab2/FA.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/FA/BEHAVIORAL 1606910341 \
+      FL C:/Users/suuser/Xilinx/jerena_lab2/FA.vhf EN work/FA 1606910340 CP XOR2 \
+      CP AND2 CP OR2
+FL C:/Users/suuser/Xilinx/jerena_lab2/schem.vhf 2020/11/30.18:13:43 P.20131013
+EN work/FA_MUSER_schem 1606910336 FL C:/Users/suuser/Xilinx/jerena_lab2/schem.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/FA_MUSER_schem/BEHAVIORAL 1606910337 \
+      FL C:/Users/suuser/Xilinx/jerena_lab2/schem.vhf EN work/FA_MUSER_schem 1606910336 \
+      CP XOR2 CP AND2 CP OR2
+EN work/schem 1606910338 \
+      FL C:/Users/suuser/Xilinx/jerena_lab2/schem.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/schem/BEHAVIORAL 1606910339 \
+      FL C:/Users/suuser/Xilinx/jerena_lab2/schem.vhf EN work/schem 1606910338 \
+      CP FA_MUSER_schem CP XOR2
+FL C:/Users/suuser/Xilinx/jerena_lab3/CL15.vhf 2020/12/01.15:16:11 P.20131013
+FL C:/Users/suuser/Xilinx/jerena_lab3/CLA.vhf 2020/12/01.15:05:15 P.20131013
+FL C:/Users/suuser/Xilinx/jerena_lab3/CLA3.vhf 2020/12/01.15:09:31 P.20131013
+FL C:/Users/suuser/Xilinx/jerena_lab3/Clw2c.vhf 2020/12/01.15:16:11 P.20131013
+FL C:/Users/suuser/Xilinx/jerena_lab3/FA.vhf 2020/11/30.18:13:43 P.20131013
+FL C:/Users/suuser/Xilinx/jerena_lab3/schem.vhf 2020/11/30.18:13:43 P.20131013

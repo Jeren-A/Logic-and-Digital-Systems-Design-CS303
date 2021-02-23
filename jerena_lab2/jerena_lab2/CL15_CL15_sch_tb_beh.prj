@@ -1,0 +1,6 @@
+vhdl work "CLA.vhf"
+vhdl work "Clw2c.vhf"
+vhdl work "CLA3.vhf"
+vhdl work "CL15.vhf"
+verilog work "testcla.v"
+verilog work "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

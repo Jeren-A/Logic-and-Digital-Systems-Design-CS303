@@ -1,0 +1,29 @@
+Command line:
+   CL15_CL15_sch_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  1090
+
+Wed Dec 02 03:55:01 2020
+
+
+ Elaboration Time: 0.0625 sec
+
+ Current Memory Usage: 364.245 Meg
+
+ Total Signals          : 653
+ Total Nets             : 194
+ Total Signal Drivers   : 161
+ Total Blocks           : 122
+ Total Primitive Blocks : 110
+ Total Processes        : 163
+ Total Traceable Variables  : 62
+ Total Scalar Nets and Variables : 788
+Total Line Count : 170
+
+ Total Simulation Time: 0.078125 sec
+
+ Current Memory Usage: 678.834 Meg
+
+Wed Dec 02 03:56:13 2020
+

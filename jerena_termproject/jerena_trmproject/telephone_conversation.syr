@@ -1,0 +1,495 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.18 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.18 secs
+ 
+--> Reading design: telephone_conversation.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "telephone_conversation.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "telephone_conversation"
+Output Format                      : NGC
+Target Device                      : xc3s100e-4-tq144
+
+---- Source Options
+Top Module Name                    : telephone_conversation
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "telephone_conversation.v" in library work
+Module <telephone_conversation> compiled
+No errors in compilation
+Analysis of file <"telephone_conversation.prj"> succeeded.
+ 
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for module <telephone_conversation> in library <work> with parameters.
+	Callee = "011"
+	Caller = "010"
+	Finn = "101"
+	Idle = "000"
+	Ring = "001"
+	Rjct = "100"
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <telephone_conversation>.
+	Callee = 3'b011
+	Caller = 3'b010
+	Finn = 3'b101
+	Idle = 3'b000
+	Ring = 3'b001
+	Rjct = 3'b100
+Module <telephone_conversation> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+INFO:Xst:2679 - Register <statusMsg<63>> in unit <telephone_conversation> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <statusMsg<58>> in unit <telephone_conversation> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <statusMsg<55>> in unit <telephone_conversation> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <statusMsg<52>> in unit <telephone_conversation> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <statusMsg<47>> in unit <telephone_conversation> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <statusMsg<39>> in unit <telephone_conversation> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <statusMsg<31>> in unit <telephone_conversation> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <statusMsg<28>> in unit <telephone_conversation> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <statusMsg<23>> in unit <telephone_conversation> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <statusMsg<15>> in unit <telephone_conversation> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <statusMsg<12>> in unit <telephone_conversation> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <statusMsg<11>> in unit <telephone_conversation> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <statusMsg<7>> in unit <telephone_conversation> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <statusMsg<4>> in unit <telephone_conversation> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <statusMsg<3>> in unit <telephone_conversation> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <statusMsg<1>> in unit <telephone_conversation> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <statusMsg<0>> in unit <telephone_conversation> has a constant value of 0 during circuit operation. The register is replaced by logic.
+
+Synthesizing Unit <telephone_conversation>.
+    Related source file is "telephone_conversation.v".
+    Register <statusMsg<14>> equivalent to <statusMsg<10>> has been removed
+    Register <statusMsg<60>> equivalent to <statusMsg<10>> has been removed
+    Register <statusMsg<8>> equivalent to <statusMsg<10>> has been removed
+    Register <statusMsg<27>> equivalent to <statusMsg<19>> has been removed
+    Register <statusMsg<33>> equivalent to <statusMsg<19>> has been removed
+    Register <statusMsg<9>> equivalent to <statusMsg<19>> has been removed
+    Register <statusMsg<29>> equivalent to <statusMsg<21>> has been removed
+    Register <statusMsg<24>> equivalent to <statusMsg<22>> has been removed
+    Register <statusMsg<30>> equivalent to <statusMsg<22>> has been removed
+    Register <statusMsg<2>> equivalent to <statusMsg<25>> has been removed
+    Register <statusMsg<6>> equivalent to <statusMsg<25>> has been removed
+    Register <statusMsg<35>> equivalent to <statusMsg<26>> has been removed
+    Register <statusMsg<38>> equivalent to <statusMsg<34>> has been removed
+    Register <statusMsg<46>> equivalent to <statusMsg<34>> has been removed
+    Register <statusMsg<54>> equivalent to <statusMsg<34>> has been removed
+    Register <statusMsg<62>> equivalent to <statusMsg<34>> has been removed
+    Register <statusMsg<40>> equivalent to <statusMsg<36>> has been removed
+    Register <statusMsg<44>> equivalent to <statusMsg<36>> has been removed
+    Register <statusMsg<49>> equivalent to <statusMsg<36>> has been removed
+    Register <statusMsg<45>> equivalent to <statusMsg<37>> has been removed
+    Register <statusMsg<53>> equivalent to <statusMsg<37>> has been removed
+    Register <statusMsg<61>> equivalent to <statusMsg<37>> has been removed
+    Register <statusMsg<57>> equivalent to <statusMsg<48>> has been removed
+    Found finite state machine <FSM_0> for signal <cState>.
+    -----------------------------------------------------------------------
+    | States             | 6                                              |
+    | Transitions        | 21                                             |
+    | Inputs             | 10                                             |
+    | Outputs            | 6                                              |
+    | Clock              | clk                       (rising_edge)        |
+    | Reset              | rst                       (positive)           |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | 000                                            |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 64-bit register for signal <sentMsg>.
+    Found 1-bit register for signal <statusMsg<59>>.
+    Found 1-bit register for signal <statusMsg<56>>.
+    Found 2-bit register for signal <statusMsg<51:50>>.
+    Found 1-bit register for signal <statusMsg<48>>.
+    Found 3-bit register for signal <statusMsg<43:41>>.
+    Found 2-bit register for signal <statusMsg<37:36>>.
+    Found 1-bit register for signal <statusMsg<34>>.
+    Found 1-bit register for signal <statusMsg<32>>.
+    Found 2-bit register for signal <statusMsg<26:25>>.
+    Found 7-bit register for signal <statusMsg<22:16>>.
+    Found 1-bit register for signal <statusMsg<13>>.
+    Found 1-bit register for signal <statusMsg<10>>.
+    Found 1-bit register for signal <statusMsg<5>>.
+    Found 4-bit register for signal <cntr>.
+    Found 4-bit adder for signal <cntr$share0000> created at line 108.
+    Found 4-bit register for signal <cntrR>.
+    Found 4-bit adder for signal <cntrR$addsub0000> created at line 118.
+    Found 32-bit register for signal <cost>.
+    Found 8-bit comparator greatequal for signal <cost$cmp_le0000> created at line 130.
+    Found 8-bit comparator lessequal for signal <cost$cmp_le0001> created at line 130.
+    Found 8-bit comparator greatequal for signal <cost$cmp_le0002> created at line 132.
+    Found 8-bit comparator lessequal for signal <cost$cmp_le0003> created at line 132.
+    Found 32-bit adder for signal <cost$share0000> created at line 108.
+    Found 8-bit comparator lessequal for signal <sentMsg_63$cmp_le0000> created at line 215.
+    Summary:
+	inferred   1 Finite State Machine(s).
+	inferred 128 D-type flip-flop(s).
+	inferred   3 Adder/Subtractor(s).
+	inferred   5 Comparator(s).
+Unit <telephone_conversation> synthesized.
+
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 3
+ 32-bit adder                                          : 1
+ 4-bit adder                                           : 2
+# Registers                                            : 91
+ 1-bit register                                        : 88
+ 32-bit register                                       : 1
+ 4-bit register                                        : 2
+# Comparators                                          : 5
+ 8-bit comparator greatequal                           : 2
+ 8-bit comparator lessequal                            : 3
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Analyzing FSM <FSM_0> for best encoding.
+Optimizing FSM <cState/FSM> on signal <cState[1:3]> with user encoding.
+-------------------
+ State | Encoding
+-------------------
+ 000   | 000
+ 001   | 001
+ 010   | 010
+ 011   | 011
+ 100   | 100
+ 101   | 101
+-------------------
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# FSMs                                                 : 1
+# Adders/Subtractors                                   : 3
+ 32-bit adder                                          : 1
+ 4-bit adder                                           : 2
+# Registers                                            : 128
+ Flip-Flops                                            : 128
+# Comparators                                          : 5
+ 8-bit comparator greatequal                           : 2
+ 8-bit comparator lessequal                            : 3
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <telephone_conversation> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block telephone_conversation, actual ratio is 20.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 131
+ Flip-Flops                                            : 131
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : telephone_conversation.ngr
+Top Level Output File Name         : telephone_conversation
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 144
+
+Cell Usage :
+# BELS                             : 420
+#      GND                         : 1
+#      LUT1                        : 30
+#      LUT2                        : 9
+#      LUT2_D                      : 9
+#      LUT3                        : 70
+#      LUT3_D                      : 3
+#      LUT3_L                      : 2
+#      LUT4                        : 143
+#      LUT4_D                      : 8
+#      LUT4_L                      : 68
+#      MUXCY                       : 31
+#      MUXF5                       : 14
+#      XORCY                       : 32
+# FlipFlops/Latches                : 131
+#      FDC                         : 119
+#      FDP                         : 12
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 143
+#      IBUF                        : 15
+#      OBUF                        : 128
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s100etq144-4 
+
+ Number of Slices:                      178  out of    960    18%  
+ Number of Slice Flip Flops:            131  out of   1920     6%  
+ Number of 4 input LUTs:                342  out of   1920    17%  
+ Number of IOs:                         144
+ Number of bonded IOBs:                 144  out of    108   133% (*) 
+ Number of GCLKs:                         1  out of     24     4%  
+
+WARNING:Xst:1336 -  (*) More than 100% of Device resources are used
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 131   |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+------------------------+-------+
+Control Signal                     | Buffer(FF name)        | Load  |
+-----------------------------------+------------------------+-------+
+rst                                | IBUF                   | 131   |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 7.185ns (Maximum Frequency: 139.170MHz)
+   Minimum input arrival time before clock: 12.002ns
+   Maximum output required time after clock: 4.571ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 7.185ns (frequency: 139.170MHz)
+  Total number of paths / destination ports: 2074 / 131
+-------------------------------------------------------------------------
+Delay:               7.185ns (Levels of Logic = 4)
+  Source:            cState_FSM_FFd2 (FF)
+  Destination:       sentMsg_61 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: cState_FSM_FFd2 to sentMsg_61
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q             46   0.591   1.302  cState_FSM_FFd2 (cState_FSM_FFd2)
+     LUT4_D:I2->O         53   0.704   1.304  sentMsg_0_mux0000411 (N69)
+     LUT3_L:I2->LO         1   0.704   0.104  sentMsg_13_mux0000327 (sentMsg_13_mux0000327)
+     LUT4:I3->O            8   0.704   0.761  sentMsg_13_mux0000335 (N9)
+     LUT4:I3->O            1   0.704   0.000  sentMsg_5_mux000018 (sentMsg_5_mux0000)
+     FDP:D                     0.308          sentMsg_5
+    ----------------------------------------
+    Total                      7.185ns (3.715ns logic, 3.470ns route)
+                                       (51.7% logic, 48.3% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 2852 / 127
+-------------------------------------------------------------------------
+Offset:              12.002ns (Levels of Logic = 8)
+  Source:            charSent<3> (PAD)
+  Destination:       sentMsg_63 (FF)
+  Destination Clock: clk rising
+
+  Data Path: charSent<3> to sentMsg_63
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             4   1.218   0.762  charSent_3_IBUF (charSent_3_IBUF)
+     LUT3:I0->O            1   0.704   0.424  sentMsg_63_and000052_SW0_SW0 (N75)
+     LUT4:I3->O            1   0.704   0.455  sentMsg_63_and000052_SW0 (N71)
+     LUT4:I2->O           52   0.704   1.444  sentMsg_63_and000052 (sentMsg_63_and0000)
+     LUT3:I0->O            1   0.704   0.595  sentMsg_0_mux0000119_SW0 (N37)
+     LUT4:I0->O            1   0.704   0.424  sentMsg_0_mux0000119 (sentMsg_0_mux0000119)
+     LUT4_D:I3->O         55   0.704   1.444  sentMsg_0_mux0000134 (N0)
+     LUT4:I0->O            1   0.704   0.000  sentMsg_63_mux00001 (sentMsg_63_mux0000)
+     FDC:D                     0.308          sentMsg_63
+    ----------------------------------------
+    Total                     12.002ns (6.454ns logic, 5.548ns route)
+                                       (53.8% logic, 46.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 111 / 111
+-------------------------------------------------------------------------
+Offset:              4.571ns (Levels of Logic = 1)
+  Source:            statusMsg_34 (FF)
+  Destination:       statusMsg<62> (PAD)
+  Source Clock:      clk rising
+
+  Data Path: statusMsg_34 to statusMsg<62>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              7   0.591   0.708  statusMsg_34 (statusMsg_34)
+     OBUF:I->O                 3.272          statusMsg_62_OBUF (statusMsg<62>)
+    ----------------------------------------
+    Total                      4.571ns (3.863ns logic, 0.708ns route)
+                                       (84.5% logic, 15.5% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 10.00 secs
+Total CPU time to Xst completion: 9.90 secs
+ 
+--> 
+
+Total memory usage is 254172 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :   18 (   0 filtered)
+

@@ -1,0 +1,37 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o C:/Users/suuser/Xilinx/jerena_lab2/CL15_CL15_sch_tb_isim_beh.exe -prj C:/Users/suuser/Xilinx/jerena_lab2/CL15_CL15_sch_tb_beh.prj work.CL15_CL15_sch_tb work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 2
+Turning on mult-threading, number of parallel sub-compilation jobs: 4 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Users/suuser/Xilinx/jerena_lab2/testcla.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Parsing VHDL file "C:/Users/suuser/Xilinx/jerena_lab2/CLA.vhf" into library work
+Parsing VHDL file "C:/Users/suuser/Xilinx/jerena_lab2/Clw2c.vhf" into library work
+Parsing VHDL file "C:/Users/suuser/Xilinx/jerena_lab2/CLA3.vhf" into library work
+Parsing VHDL file "C:/Users/suuser/Xilinx/jerena_lab2/CL15.vhf" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module CL15_CL15_sch_tb
+Compiling module glbl
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling package vcomponents
+Compiling architecture xor2_v of entity XOR2 [xor2_default]
+Compiling architecture and2_v of entity AND2 [and2_default]
+Compiling architecture or2_v of entity OR2 [or2_default]
+Compiling architecture or3_v of entity OR3 [or3_default]
+Compiling architecture and3_v of entity AND3 [and3_default]
+Compiling architecture and4_v of entity AND4 [and4_default]
+Compiling architecture or4_v of entity OR4 [or4_default]
+Compiling architecture behavioral of entity CLA_MUSER_CL15 [cla_muser_cl15_default]
+Compiling architecture behavioral of entity Clw2c_MUSER_CL15 [clw2c_muser_cl15_default]
+Compiling architecture behavioral of entity CLA3_MUSER_CL15 [cla3_muser_cl15_default]
+Compiling architecture behavioral of entity CL15 [cl15_default]
+Time Resolution for simulation is 1ps.
+Waiting for 2 sub-compilation(s) to finish...
+Compiled 26 VHDL Units
+Compiled 2 Verilog Units
+Built simulation executable C:/Users/suuser/Xilinx/jerena_lab2/CL15_CL15_sch_tb_isim_beh.exe
+Fuse Memory Usage: 51184 KB
+Fuse CPU Usage: 780 ms

@@ -1,0 +1,48 @@
+xst -intstyle ise -ifn "C:/Users/suuser/Xilinx/jerena_lab3/schem.xst" -ofn "C:/Users/suuser/Xilinx/jerena_lab3/schem.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-tq144-4 schem.ngc schem.ngd  
+map -intstyle ise -p xc3s100e-tq144-4 -cm area -ir off -pr off -c 100 -o schem_map.ncd schem.ngd schem.pcf 
+par -w -intstyle ise -ol high -t 1 schem_map.ncd schem.ncd schem.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml schem.twx schem.ncd -o schem.twr schem.pcf 
+xst -intstyle ise -ifn "C:/Users/suuser/Xilinx/jerena_lab3/schem.xst" -ofn "C:/Users/suuser/Xilinx/jerena_lab3/schem.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-tq144-4 schem.ngc schem.ngd  
+map -intstyle ise -p xc3s100e-tq144-4 -cm area -ir off -pr off -c 100 -o schem_map.ncd schem.ngd schem.pcf 
+par -w -intstyle ise -ol high -t 1 schem_map.ncd schem.ncd schem.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml schem.twx schem.ncd -o schem.twr schem.pcf 
+bitgen -intstyle ise -f schem.ut schem.ncd 
+xst -intstyle ise -ifn "C:/Users/suuser/Xilinx/jerena_lab3/schem.xst" -ofn "C:/Users/suuser/Xilinx/jerena_lab3/schem.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-tq144-4 schem.ngc schem.ngd  
+map -intstyle ise -p xc3s100e-tq144-4 -cm area -ir off -pr off -c 100 -o schem_map.ncd schem.ngd schem.pcf 
+par -w -intstyle ise -ol high -t 1 schem_map.ncd schem.ncd schem.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml schem.twx schem.ncd -o schem.twr schem.pcf 
+bitgen -intstyle ise -f schem.ut schem.ncd 
+xst -intstyle ise -ifn "C:/Users/suuser/Xilinx/jerena_lab3/schem.xst" -ofn "C:/Users/suuser/Xilinx/jerena_lab3/schem.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-tq144-4 schem.ngc schem.ngd  
+map -intstyle ise -p xc3s100e-tq144-4 -cm area -ir off -pr off -c 100 -o schem_map.ncd schem.ngd schem.pcf 
+par -w -intstyle ise -ol high -t 1 schem_map.ncd schem.ncd schem.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml schem.twx schem.ncd -o schem.twr schem.pcf 
+bitgen -intstyle ise -f schem.ut schem.ncd 
+xst -intstyle ise -ifn "C:/Users/suuser/Xilinx/jerena_lab2/schem.xst" -ofn "C:/Users/suuser/Xilinx/jerena_lab2/schem.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-tq144-4 schem.ngc schem.ngd  
+map -intstyle ise -p xc3s100e-tq144-4 -cm area -ir off -pr off -c 100 -o schem_map.ncd schem.ngd schem.pcf 
+par -w -intstyle ise -ol high -t 1 schem_map.ncd schem.ncd schem.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml schem.twx schem.ncd -o schem.twr schem.pcf 
+bitgen -intstyle ise -f schem.ut schem.ncd 
+netgen -intstyle ise -ar Structure -tm schem -w -dir netgen/synthesis -ofmt vhdl -sim schem.ngc schem_synthesis.vhd 
+xst -intstyle ise -ifn "C:/Users/suuser/Xilinx/jerena_lab2/schem.xst" -ofn "C:/Users/suuser/Xilinx/jerena_lab2/schem.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-tq144-4 schem.ngc schem.ngd  
+map -intstyle ise -p xc3s100e-tq144-4 -cm area -ir off -pr off -c 100 -o schem_map.ncd schem.ngd schem.pcf 
+par -w -intstyle ise -ol high -t 1 schem_map.ncd schem.ncd schem.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml schem.twx schem.ncd -o schem.twr schem.pcf 
+bitgen -intstyle ise -f schem.ut schem.ncd 
+xst -intstyle ise -ifn "C:/Users/suuser/Xilinx/jerena_lab2/schem.xst" -ofn "C:/Users/suuser/Xilinx/jerena_lab2/schem.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-tq144-4 schem.ngc schem.ngd  
+map -intstyle ise -p xc3s100e-tq144-4 -cm area -ir off -pr off -c 100 -o schem_map.ncd schem.ngd schem.pcf 
+par -w -intstyle ise -ol high -t 1 schem_map.ncd schem.ncd schem.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml schem.twx schem.ncd -o schem.twr schem.pcf 
+bitgen -intstyle ise -f schem.ut schem.ncd 
+xst -intstyle ise -ifn "C:/Users/suuser/Xilinx/jerena_lab2/schem.xst" -ofn "C:/Users/suuser/Xilinx/jerena_lab2/schem.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-tq144-4 schem.ngc schem.ngd  
+map -intstyle ise -p xc3s100e-tq144-4 -cm area -ir off -pr off -c 100 -o schem_map.ncd schem.ngd schem.pcf 
+par -w -intstyle ise -ol high -t 1 schem_map.ncd schem.ncd schem.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml schem.twx schem.ncd -o schem.twr schem.pcf 
+bitgen -intstyle ise -f schem.ut schem.ncd 

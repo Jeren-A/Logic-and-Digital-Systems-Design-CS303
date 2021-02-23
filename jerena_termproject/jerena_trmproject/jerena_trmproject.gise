@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="jerena_trmproject.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="tel_tb_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="tel_tb_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="tel_tb_isim_beh.wdb"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="telephone_conversation.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="telephone_conversation.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="telephone_conversation.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="telephone_conversation.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="telephone_conversation.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="telephone_conversation.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="telephone_conversation.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="telephone_conversation.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="telephone_conversation.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="telephone_conversation.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="telephone_conversation.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="telephone_conversation_envsettings.html"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="telephone_conversation_isim_beh.exe"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="telephone_conversation_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="telephone_conversation_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="telephone_conversation_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="telephone_conversation_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="telephone_conversation_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="telephone_conversation_ngdbuild.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="telephone_conversation_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="telephone_conversation_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="telephone_conversation_usage.xml"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="telephone_conversation_xst.xrpt"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="test_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="test_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1609766696" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1609766696">
+      <status xil_pn:value="SuccessfullyRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1609891201" xil_pn:in_ck="3057955528650358886" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1609891201">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="telephone_conversation.v"/>
+      <outfile xil_pn:name="test.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1609766696" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="9082316595138987025" xil_pn:start_ts="1609766696">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1609766696" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="8788556825125238419" xil_pn:start_ts="1609766696">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1609766696" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-7046118419499027787" xil_pn:start_ts="1609766696">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1609891201" xil_pn:in_ck="3057955528650358886" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1609891201">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="telephone_conversation.v"/>
+      <outfile xil_pn:name="test.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1609891206" xil_pn:in_ck="3057955528650358886" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-3599016416210810109" xil_pn:start_ts="1609891201">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="tel_tb_beh.prj"/>
+      <outfile xil_pn:name="tel_tb_isim_beh.exe"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1609891206" xil_pn:in_ck="-8034700022897166299" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-91285715672238714" xil_pn:start_ts="1609891206">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="tel_tb_isim_beh.wdb"/>
+    </transform>
+    <transform xil_pn:end_ts="1609675239" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1609675238">
+      <status xil_pn:value="SuccessfullyRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1609675239" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="8180097962686247511" xil_pn:start_ts="1609675239">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1609675239" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="-7046118419499027787" xil_pn:start_ts="1609675239">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1609675240" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1609675239">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1609675240" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="1077691554931412885" xil_pn:start_ts="1609675240">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1609675240" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="2988080280842703814" xil_pn:start_ts="1609675240">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1609675240" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="1450514866017638719" xil_pn:start_ts="1609675240">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1609892303" xil_pn:in_ck="-2584439242471852126" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="6743666074019723708" xil_pn:start_ts="1609892289">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="telephone_conversation.lso"/>
+      <outfile xil_pn:name="telephone_conversation.ngc"/>
+      <outfile xil_pn:name="telephone_conversation.ngr"/>
+      <outfile xil_pn:name="telephone_conversation.prj"/>
+      <outfile xil_pn:name="telephone_conversation.stx"/>
+      <outfile xil_pn:name="telephone_conversation.syr"/>
+      <outfile xil_pn:name="telephone_conversation.xst"/>
+      <outfile xil_pn:name="telephone_conversation_xst.xrpt"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1609714382" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="8564621571249118912" xil_pn:start_ts="1609714381">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1609753575" xil_pn:in_ck="7897508225714426820" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="4281264791275304568" xil_pn:start_ts="1609753564">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+      <outfile xil_pn:name="telephone_conversation.bld"/>
+      <outfile xil_pn:name="telephone_conversation.ngd"/>
+      <outfile xil_pn:name="telephone_conversation_ngdbuild.xrpt"/>
+    </transform>
+    <transform xil_pn:end_ts="1609753586" xil_pn:in_ck="7897508225714426821" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="7557559725430926307" xil_pn:start_ts="1609753575">
+      <status xil_pn:value="FailedRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
+      <outfile xil_pn:name="telephone_conversation.pcf"/>
+      <outfile xil_pn:name="telephone_conversation_map.map"/>
+      <outfile xil_pn:name="telephone_conversation_map.mrp"/>
+      <outfile xil_pn:name="telephone_conversation_map.ncd"/>
+      <outfile xil_pn:name="telephone_conversation_map.ngm"/>
+      <outfile xil_pn:name="telephone_conversation_map.xrpt"/>
+      <outfile xil_pn:name="telephone_conversation_summary.xml"/>
+      <outfile xil_pn:name="telephone_conversation_usage.xml"/>
+    </transform>
+  </transforms>
+
+</generated_project>

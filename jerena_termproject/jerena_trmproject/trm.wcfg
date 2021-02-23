@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/suuser/jerena_trmproject/tel_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tel_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="14" />
+   <wvobject fp_name="/tel_tb/statusMsg" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">statusMsg[63:0]</obj_property>
+      <obj_property name="ObjectShortName">statusMsg[63:0]</obj_property>
+      <obj_property name="Radix">ASCIIRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tel_tb/sentMsg" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">sentMsg[63:0]</obj_property>
+      <obj_property name="ObjectShortName">sentMsg[63:0]</obj_property>
+      <obj_property name="Radix">ASCIIRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tel_tb/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tel_tb/rst" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tel_tb/startCall" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">startCall</obj_property>
+      <obj_property name="ObjectShortName">startCall</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tel_tb/answerCall" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">answerCall</obj_property>
+      <obj_property name="ObjectShortName">answerCall</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tel_tb/callerEndsCall" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">callerEndsCall</obj_property>
+      <obj_property name="ObjectShortName">callerEndsCall</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tel_tb/calleeEndsCall" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">calleeEndsCall</obj_property>
+      <obj_property name="ObjectShortName">calleeEndsCall</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tel_tb/callerSendsChar" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">callerSendsChar</obj_property>
+      <obj_property name="ObjectShortName">callerSendsChar</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tel_tb/calleeSendsChar" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">calleeSendsChar</obj_property>
+      <obj_property name="ObjectShortName">calleeSendsChar</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tel_tb/charSent" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">charSent[7:0]</obj_property>
+      <obj_property name="ObjectShortName">charSent[7:0]</obj_property>
+      <obj_property name="Radix">ASCIIRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tel_tb/uut/cost" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">cost[31:0]</obj_property>
+      <obj_property name="ObjectShortName">cost[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tel_tb/uut/cState" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">cState[2:0]</obj_property>
+      <obj_property name="ObjectShortName">cState[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tel_tb/uut/nState" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">nState[2:0]</obj_property>
+      <obj_property name="ObjectShortName">nState[2:0]</obj_property>
+   </wvobject>
+</wave_config>

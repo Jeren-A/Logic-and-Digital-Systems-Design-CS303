@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/suuser/Xilinx/jerena_lab3/schem_schem_sch_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="numeric_std" />
+            <top_module name="schem_schem_sch_tb" />
+            <top_module name="std_logic_1164" />
+            <top_module name="vcomponents" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="6" />
+   <wvobject fp_name="/schem_schem_sch_tb/C0" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">C0</obj_property>
+      <obj_property name="ObjectShortName">C0</obj_property>
+   </wvobject>
+   <wvobject fp_name="vbus51" type="vbus" db_ref_id="1">
+      <obj_property name="label">A</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <wvobject fp_name="/schem_schem_sch_tb/A14" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">A14</obj_property>
+         <obj_property name="ObjectShortName">A14</obj_property>
+      </wvobject>
+      <wvobject fp_name="/schem_schem_sch_tb/A13" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">A13</obj_property>
+         <obj_property name="ObjectShortName">A13</obj_property>
+      </wvobject>
+      <wvobject fp_name="/schem_schem_sch_tb/A12" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">A12</obj_property>
+         <obj_property name="ObjectShortName">A12</obj_property>
+      </wvobject>
+      <wvobject fp_name="/schem_schem_sch_tb/A11" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">A11</obj_property>
+         <obj_property name="ObjectShortName">A11</obj_property>
+      </wvobject>
+      <wvobject fp_name="/schem_schem_sch_tb/A10" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">A10</obj_property>
+         <obj_property name="ObjectShortName">A10</obj_property>
+      </wvobject>
+      <wvobject fp_name="/schem_schem_sch_tb/A9" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">A9</obj_property>
+         <obj_property name="ObjectShortName">A9</obj_property>
+      </wvobject>
+      <wvobject fp_name="/schem_schem_sch_tb/A8" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">A8</obj_property>
+         <obj_property name="ObjectShortName">A8</obj_property>
+      </wvobject>
+      <wvobject fp_name="/schem_schem_sch_tb/A7" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">A7</obj_property>
+         <obj_property name="ObjectShortName">A7</obj_property>
+      </wvobject>
+      <wvobject fp_name="/schem_schem_sch_tb/A6" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">A6</obj_property>
+         <obj_property name="ObjectShortName">A6</obj_property>
+      </wvobject>
+      <wvobject fp_name="/schem_schem_sch_tb/A5" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">A5</obj_property>
+         <obj_property name="ObjectShortName">A5</obj_property>
+      </wvobject>
+      <wvobject fp_name="/schem_schem_sch_tb/A4" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">A4</obj_property>
+         <obj_property name="ObjectShortName">A4</obj_property>
+      </wvobject>
+      <wvobject fp_name="/schem_schem_sch_tb/A3" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">A3</obj_property>
+         <obj_property name="ObjectShortName">A3</obj_property>
+      </wvobject>
+      <wvobject fp_name="/schem_schem_sch_tb/A2" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">A2</obj_property>
+         <obj_property name="ObjectShortName">A2</obj_property>
+      </wvobject>
+      <wvobject fp_name="/schem_schem_sch_tb/A1" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">A1</obj_property>
+         <obj_property name="ObjectShortName">A1</obj_property>
+      </wvobject>
+      <wvobject fp_name="/schem_schem_sch_tb/A0" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">A0</obj_property>
+         <obj_property name="ObjectShortName">A0</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="vbus50" type="vbus" db_ref_id="1">
+      <obj_property name="label">B</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <wvobject fp_name="/schem_schem_sch_tb/B14" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">B14</obj_property>
+         <obj_property name="ObjectShortName">B14</obj_property>
+      </wvobject>
+      <wvobject fp_name="/schem_schem_sch_tb/B13" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">B13</obj_property>
+         <obj_property name="ObjectShortName">B13</obj_property>
+      </wvobject>
+      <wvobject fp_name="/schem_schem_sch_tb/B12" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">B12</obj_property>
+         <obj_property name="ObjectShortName">B12</obj_property>
+      </wvobject>
+      <wvobject fp_name="/schem_schem_sch_tb/B11" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">B11</obj_property>
+         <obj_property name="ObjectShortName">B11</obj_property>
+      </wvobject>
+      <wvobject fp_name="/schem_schem_sch_tb/B10" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">B10</obj_property>
+         <obj_property name="ObjectShortName">B10</obj_property>
+      </wvobject>
+      <wvobject fp_name="/schem_schem_sch_tb/B9" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">B9</obj_property>
+         <obj_property name="ObjectShortName">B9</obj_property>
+      </wvobject>
+      <wvobject fp_name="/schem_schem_sch_tb/B8" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">B8</obj_property>
+         <obj_property name="ObjectShortName">B8</obj_property>
+      </wvobject>
+      <wvobject fp_name="/schem_schem_sch_tb/B7" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">B7</obj_property>
+         <obj_property name="ObjectShortName">B7</obj_property>
+      </wvobject>
+      <wvobject fp_name="/schem_schem_sch_tb/B6" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">B6</obj_property>
+         <obj_property name="ObjectShortName">B6</obj_property>
+      </wvobject>
+      <wvobject fp_name="/schem_schem_sch_tb/B5" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">B5</obj_property>
+         <obj_property name="ObjectShortName">B5</obj_property>
+      </wvobject>
+      <wvobject fp_name="/schem_schem_sch_tb/B4" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">B4</obj_property>
+         <obj_property name="ObjectShortName">B4</obj_property>
+      </wvobject>
+      <wvobject fp_name="/schem_schem_sch_tb/B3" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">B3</obj_property>
+         <obj_property name="ObjectShortName">B3</obj_property>
+      </wvobject>
+      <wvobject fp_name="/schem_schem_sch_tb/B2" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">B2</obj_property>
+         <obj_property name="ObjectShortName">B2</obj_property>
+      </wvobject>
+      <wvobject fp_name="/schem_schem_sch_tb/B1" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">B1</obj_property>
+         <obj_property name="ObjectShortName">B1</obj_property>
+      </wvobject>
+      <wvobject fp_name="/schem_schem_sch_tb/B0" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">B0</obj_property>
+         <obj_property name="ObjectShortName">B0</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="vbus49" type="vbus" db_ref_id="1">
+      <obj_property name="label">Sum</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <wvobject fp_name="/schem_schem_sch_tb/S14" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">S14</obj_property>
+         <obj_property name="ObjectShortName">S14</obj_property>
+      </wvobject>
+      <wvobject fp_name="/schem_schem_sch_tb/S13" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">S13</obj_property>
+         <obj_property name="ObjectShortName">S13</obj_property>
+      </wvobject>
+      <wvobject fp_name="/schem_schem_sch_tb/S12" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">S12</obj_property>
+         <obj_property name="ObjectShortName">S12</obj_property>
+      </wvobject>
+      <wvobject fp_name="/schem_schem_sch_tb/S11" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">S11</obj_property>
+         <obj_property name="ObjectShortName">S11</obj_property>
+      </wvobject>
+      <wvobject fp_name="/schem_schem_sch_tb/S10" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">S10</obj_property>
+         <obj_property name="ObjectShortName">S10</obj_property>
+      </wvobject>
+      <wvobject fp_name="/schem_schem_sch_tb/S9" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">S9</obj_property>
+         <obj_property name="ObjectShortName">S9</obj_property>
+      </wvobject>
+      <wvobject fp_name="/schem_schem_sch_tb/S7" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">S7</obj_property>
+         <obj_property name="ObjectShortName">S7</obj_property>
+      </wvobject>
+      <wvobject fp_name="/schem_schem_sch_tb/S8" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">S8</obj_property>
+         <obj_property name="ObjectShortName">S8</obj_property>
+      </wvobject>
+      <wvobject fp_name="/schem_schem_sch_tb/S6" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">S6</obj_property>
+         <obj_property name="ObjectShortName">S6</obj_property>
+      </wvobject>
+      <wvobject fp_name="/schem_schem_sch_tb/S5" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">S5</obj_property>
+         <obj_property name="ObjectShortName">S5</obj_property>
+      </wvobject>
+      <wvobject fp_name="/schem_schem_sch_tb/S4" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">S4</obj_property>
+         <obj_property name="ObjectShortName">S4</obj_property>
+      </wvobject>
+      <wvobject fp_name="/schem_schem_sch_tb/S3" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">S3</obj_property>
+         <obj_property name="ObjectShortName">S3</obj_property>
+      </wvobject>
+      <wvobject fp_name="/schem_schem_sch_tb/S2" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">S2</obj_property>
+         <obj_property name="ObjectShortName">S2</obj_property>
+      </wvobject>
+      <wvobject fp_name="/schem_schem_sch_tb/S1" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">S1</obj_property>
+         <obj_property name="ObjectShortName">S1</obj_property>
+      </wvobject>
+      <wvobject fp_name="/schem_schem_sch_tb/S0" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">S0</obj_property>
+         <obj_property name="ObjectShortName">S0</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/schem_schem_sch_tb/C" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">C</obj_property>
+      <obj_property name="ObjectShortName">C</obj_property>
+   </wvobject>
+   <wvobject fp_name="/schem_schem_sch_tb/V" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">V</obj_property>
+      <obj_property name="ObjectShortName">V</obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "C:/Users/suuser/Xilinx/CS_303/jerena_lab1/schem_schem_sch_tb_isim_beh.exe" -prj "C:/Users/suuser/Xilinx/CS_303/jerena_lab1/schem_schem_sch_tb_beh.prj" "work.schem_schem_sch_tb" "work.glbl" 

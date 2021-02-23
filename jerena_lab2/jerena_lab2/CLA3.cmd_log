@@ -1,0 +1,8 @@
+xst -intstyle ise -ifn "C:/Users/suuser/Xilinx/jerena_lab3/CLA3.xst" -ofn "C:/Users/suuser/Xilinx/jerena_lab3/CLA3.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-tq144-4 CLA3.ngc CLA3.ngd  
+xst -intstyle ise -ifn "C:/Users/suuser/Xilinx/jerena_lab3/CLA3.xst" -ofn "C:/Users/suuser/Xilinx/jerena_lab3/CLA3.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-tq144-4 CLA3.ngc CLA3.ngd  
+map -intstyle ise -p xc3s100e-tq144-4 -cm area -ir off -pr off -c 100 -o CLA3_map.ncd CLA3.ngd CLA3.pcf 
+par -w -intstyle ise -ol high -t 1 CLA3_map.ncd CLA3.ncd CLA3.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CLA3.twx CLA3.ncd -o CLA3.twr CLA3.pcf 
+bitgen -intstyle ise -f CLA3.ut CLA3.ncd 

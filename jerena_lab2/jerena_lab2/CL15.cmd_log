@@ -1,0 +1,39 @@
+xst -intstyle ise -ifn "C:/Users/suuser/Xilinx/jerena_lab3/CL15.xst" -ofn "C:/Users/suuser/Xilinx/jerena_lab3/CL15.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-tq144-4 CL15.ngc CL15.ngd  
+xst -intstyle ise -ifn "C:/Users/suuser/Xilinx/jerena_lab3/CL15.xst" -ofn "C:/Users/suuser/Xilinx/jerena_lab3/CL15.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-tq144-4 CL15.ngc CL15.ngd  
+xst -intstyle ise -ifn "C:/Users/suuser/Xilinx/jerena_lab3/CL15.xst" -ofn "C:/Users/suuser/Xilinx/jerena_lab3/CL15.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-tq144-4 CL15.ngc CL15.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-tq144-4 CL15.ngc CL15.ngd  
+xst -intstyle ise -ifn "C:/Users/suuser/Xilinx/jerena_lab3/CL15.xst" -ofn "C:/Users/suuser/Xilinx/jerena_lab3/CL15.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-tq144-4 CL15.ngc CL15.ngd  
+xst -intstyle ise -ifn "C:/Users/suuser/Xilinx/jerena_lab3/CL15.xst" -ofn "C:/Users/suuser/Xilinx/jerena_lab3/CL15.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-tq144-4 CL15.ngc CL15.ngd  
+map -intstyle ise -p xc3s100e-tq144-4 -cm area -ir off -pr off -c 100 -o CL15_map.ncd CL15.ngd CL15.pcf 
+par -w -intstyle ise -ol high -t 1 CL15_map.ncd CL15.ncd CL15.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CL15.twx CL15.ncd -o CL15.twr CL15.pcf 
+bitgen -intstyle ise -f CL15.ut CL15.ncd 
+xst -intstyle ise -ifn "C:/Users/suuser/Xilinx/jerena_lab3/CL15.xst" -ofn "C:/Users/suuser/Xilinx/jerena_lab3/CL15.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-tq144-4 CL15.ngc CL15.ngd  
+map -intstyle ise -p xc3s100e-tq144-4 -cm area -ir off -pr off -c 100 -o CL15_map.ncd CL15.ngd CL15.pcf 
+par -w -intstyle ise -ol high -t 1 CL15_map.ncd CL15.ncd CL15.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CL15.twx CL15.ncd -o CL15.twr CL15.pcf 
+bitgen -intstyle ise -f CL15.ut CL15.ncd 
+xst -intstyle ise -ifn "C:/Users/suuser/Xilinx/jerena_lab3/CL15.xst" -ofn "C:/Users/suuser/Xilinx/jerena_lab3/CL15.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-tq144-4 CL15.ngc CL15.ngd  
+map -intstyle ise -p xc3s100e-tq144-4 -cm area -ir off -pr off -c 100 -o CL15_map.ncd CL15.ngd CL15.pcf 
+par -w -intstyle ise -ol high -t 1 CL15_map.ncd CL15.ncd CL15.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CL15.twx CL15.ncd -o CL15.twr CL15.pcf 
+bitgen -intstyle ise -f CL15.ut CL15.ncd 
+xst -intstyle ise -ifn "C:/Users/suuser/Xilinx/jerena_lab2/CL15.xst" -ofn "C:/Users/suuser/Xilinx/jerena_lab2/CL15.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-tq144-4 CL15.ngc CL15.ngd  
+map -intstyle ise -p xc3s100e-tq144-4 -cm area -ir off -pr off -c 100 -o CL15_map.ncd CL15.ngd CL15.pcf 
+par -w -intstyle ise -ol high -t 1 CL15_map.ncd CL15.ncd CL15.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CL15.twx CL15.ncd -o CL15.twr CL15.pcf 
+bitgen -intstyle ise -f CL15.ut CL15.ncd 
+xst -intstyle ise -ifn "C:/Users/suuser/Xilinx/jerena_lab2/CL15.xst" -ofn "C:/Users/suuser/Xilinx/jerena_lab2/CL15.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-tq144-4 CL15.ngc CL15.ngd  
+map -intstyle ise -p xc3s100e-tq144-4 -cm area -ir off -pr off -c 100 -o CL15_map.ncd CL15.ngd CL15.pcf 
+par -w -intstyle ise -ol high -t 1 CL15_map.ncd CL15.ncd CL15.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CL15.twx CL15.ncd -o CL15.twr CL15.pcf 
+bitgen -intstyle ise -f CL15.ut CL15.ncd 

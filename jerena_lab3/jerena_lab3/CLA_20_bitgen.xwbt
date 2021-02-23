@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\suuser\Desktop\New folder\jerena_lab3\CLA_20.ncd
+OUTFILE=C:\Users\suuser\Desktop\New folder\jerena_lab3\CLA_20.bit
+FAMILY=Spartan3E
+PART=xc3s100e-4tq144
+WORKINGDIR=C:\Users\suuser\Desktop\New folder\jerena_lab3
+LICENSE=WebPack
+USER_INFO=212064614_0_0_738

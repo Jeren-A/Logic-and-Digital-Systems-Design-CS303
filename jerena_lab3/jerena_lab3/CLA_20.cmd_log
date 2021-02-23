@@ -1,0 +1,43 @@
+xst -intstyle ise -ifn "C:/Users/suuser/Desktop/New folder/jerena_lab3/CLA_20.xst" -ofn "C:/Users/suuser/Desktop/New folder/jerena_lab3/CLA_20.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-tq144-4 "CLA_20.ngc" CLA_20.ngd  
+map -intstyle ise -p xc3s100e-tq144-4 -cm area -ir off -pr off -c 100 -o CLA_20_map.ncd CLA_20.ngd CLA_20.pcf 
+par -w -intstyle ise -ol high -t 1 CLA_20_map.ncd CLA_20.ncd CLA_20.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CLA_20.twx CLA_20.ncd -o CLA_20.twr CLA_20.pcf 
+bitgen -intstyle ise -f CLA_20.ut CLA_20.ncd 
+xst -intstyle ise -ifn "C:/Users/suuser/Desktop/New folder/jerena_lab3/CLA_20.xst" -ofn "C:/Users/suuser/Desktop/New folder/jerena_lab3/CLA_20.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-tq144-4 "CLA_20.ngc" CLA_20.ngd  
+map -intstyle ise -p xc3s100e-tq144-4 -cm area -ir off -pr off -c 100 -o CLA_20_map.ncd CLA_20.ngd CLA_20.pcf 
+par -w -intstyle ise -ol high -t 1 CLA_20_map.ncd CLA_20.ncd CLA_20.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CLA_20.twx CLA_20.ncd -o CLA_20.twr CLA_20.pcf 
+bitgen -intstyle ise -f CLA_20.ut CLA_20.ncd 
+xst -intstyle ise -ifn "C:/Users/suuser/Desktop/New folder/jerena_lab3/CLA_20.xst" -ofn "C:/Users/suuser/Desktop/New folder/jerena_lab3/CLA_20.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-tq144-4 "CLA_20.ngc" CLA_20.ngd  
+map -intstyle ise -p xc3s100e-tq144-4 -cm area -ir off -pr off -c 100 -o CLA_20_map.ncd CLA_20.ngd CLA_20.pcf 
+par -w -intstyle ise -ol high -t 1 CLA_20_map.ncd CLA_20.ncd CLA_20.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CLA_20.twx CLA_20.ncd -o CLA_20.twr CLA_20.pcf 
+bitgen -intstyle ise -f CLA_20.ut CLA_20.ncd 
+xst -intstyle ise -ifn "C:/Users/suuser/Desktop/New folder/jerena_lab3/CLA_20.xst" -ofn "C:/Users/suuser/Desktop/New folder/jerena_lab3/CLA_20.syr" 
+xst -intstyle ise -ifn "C:/Users/suuser/Desktop/New folder/jerena_lab3/CLA_20.xst" -ofn "C:/Users/suuser/Desktop/New folder/jerena_lab3/CLA_20.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-tq144-4 "CLA_20.ngc" CLA_20.ngd  
+map -intstyle ise -p xc3s100e-tq144-4 -cm area -ir off -pr off -c 100 -o CLA_20_map.ncd CLA_20.ngd CLA_20.pcf 
+par -w -intstyle ise -ol high -t 1 CLA_20_map.ncd CLA_20.ncd CLA_20.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CLA_20.twx CLA_20.ncd -o CLA_20.twr CLA_20.pcf 
+bitgen -intstyle ise -f CLA_20.ut CLA_20.ncd 
+xst -intstyle ise -ifn "C:/Users/suuser/Desktop/New folder/jerena_lab3/CLA_20.xst" -ofn "C:/Users/suuser/Desktop/New folder/jerena_lab3/CLA_20.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-tq144-4 "CLA_20.ngc" CLA_20.ngd  
+map -intstyle ise -p xc3s100e-tq144-4 -cm area -ir off -pr off -c 100 -o CLA_20_map.ncd CLA_20.ngd CLA_20.pcf 
+par -w -intstyle ise -ol high -t 1 CLA_20_map.ncd CLA_20.ncd CLA_20.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CLA_20.twx CLA_20.ncd -o CLA_20.twr CLA_20.pcf 
+bitgen -intstyle ise -f CLA_20.ut CLA_20.ncd 
+xst -intstyle ise -ifn "C:/Users/suuser/Desktop/New folder/jerena_lab3/CLA_20.xst" -ofn "C:/Users/suuser/Desktop/New folder/jerena_lab3/CLA_20.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-tq144-4 "CLA_20.ngc" CLA_20.ngd  
+map -intstyle ise -p xc3s100e-tq144-4 -cm area -ir off -pr off -c 100 -o CLA_20_map.ncd CLA_20.ngd CLA_20.pcf 
+par -w -intstyle ise -ol high -t 1 CLA_20_map.ncd CLA_20.ncd CLA_20.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CLA_20.twx CLA_20.ncd -o CLA_20.twr CLA_20.pcf 
+bitgen -intstyle ise -f CLA_20.ut CLA_20.ncd 
+xst -intstyle ise -ifn "C:/Users/suuser/Desktop/New folder/jerena_lab3/CLA_20.xst" -ofn "C:/Users/suuser/Desktop/New folder/jerena_lab3/CLA_20.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-tq144-4 "CLA_20.ngc" CLA_20.ngd  
+map -intstyle ise -p xc3s100e-tq144-4 -cm area -ir off -pr off -c 100 -o CLA_20_map.ncd CLA_20.ngd CLA_20.pcf 
+par -w -intstyle ise -ol high -t 1 CLA_20_map.ncd CLA_20.ncd CLA_20.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CLA_20.twx CLA_20.ncd -o CLA_20.twr CLA_20.pcf 
+bitgen -intstyle ise -f CLA_20.ut CLA_20.ncd 

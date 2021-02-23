@@ -1,0 +1,29 @@
+Command line:
+   schem_schem_sch_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  1085
+
+Wed Dec 02 03:49:56 2020
+
+
+ Elaboration Time: 0.09375 sec
+
+ Current Memory Usage: 364.204 Meg
+
+ Total Signals          : 526
+ Total Nets             : 178
+ Total Signal Drivers   : 145
+ Total Blocks           : 112
+ Total Primitive Blocks : 95
+ Total Processes        : 147
+ Total Traceable Variables  : 62
+ Total Scalar Nets and Variables : 772
+Total Line Count : 154
+
+ Total Simulation Time: 0.15625 sec
+
+ Current Memory Usage: 678.793 Meg
+
+Wed Dec 02 03:50:52 2020
+

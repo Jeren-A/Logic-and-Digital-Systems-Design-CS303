@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/suuser/Desktop/New folder/jerena_lab3/test_CLA_1_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="test_CLA_1" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="8" />
+   <wvobject fp_name="/test_CLA_1/Cin" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">Cin</obj_property>
+      <obj_property name="ObjectShortName">Cin</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_CLA_1/A" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">A[19:0]</obj_property>
+      <obj_property name="ObjectShortName">A[19:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_CLA_1/B" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">B[19:0]</obj_property>
+      <obj_property name="ObjectShortName">B[19:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_CLA_1/S" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">S[19:0]</obj_property>
+      <obj_property name="ObjectShortName">S[19:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_CLA_1/Carry" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">Carry</obj_property>
+      <obj_property name="ObjectShortName">Carry</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_CLA_1/OVF" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">OVF</obj_property>
+      <obj_property name="ObjectShortName">OVF</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_CLA_1/Cout" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">Cout</obj_property>
+      <obj_property name="ObjectShortName">Cout</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_CLA_1/Cout2" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">Cout2</obj_property>
+      <obj_property name="ObjectShortName">Cout2</obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,1 @@
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl FA_drc.vhf -w C:/Users/suuser/Xilinx/jerena_lab3/FA.sch 
